@@ -1,0 +1,5 @@
+resolution,precision,ms / image,± std,images / s
+512×512,fp32,86.0,0.6,11.6
+512×512,fp16 (autocast),40.4,0.3,24.8
+256×256,fp32,22.0,0.3,45.4
+256×256,fp16 (autocast),10.7,0.2,93.3
