@@ -55,7 +55,8 @@ The content target is the AdaIN output $t$, not the photo's own features, so the
 ### Speed
 
 ```mermaid
-xychart-beta
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#2f6fdf"}}}}%%
+xychart-beta horizontal
     title "Images per second on one Tesla T4"
     x-axis ["512 px fp32", "512 px fp16", "256 px fp32", "256 px fp16"]
     y-axis "images / s" 0 --> 100
